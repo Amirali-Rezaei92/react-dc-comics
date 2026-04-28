@@ -1,0 +1,25 @@
+.bluebar {
+    background-color: rgb(47, 164, 215);
+    padding: 40px 0;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+
+
+.itemsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bluebarItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.bluebarItem img {
+    height: 50px;
+}

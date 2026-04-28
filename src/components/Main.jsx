@@ -1,5 +1,5 @@
 import comics from '../data/comics';
-import Card from './Card/Card';
+import Card from './Card/Card.jsx';
 import './Main.css';
 
 function Main() {

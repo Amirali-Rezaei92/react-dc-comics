@@ -4,7 +4,7 @@ function Card({ thumb, title }) {
     return (
         <div className={styles.card}>
             <img src={thumb} alt={title} />
-            <h4>{title}</h4>
+            <h4 className={styles.title}>{title}</h4>
         </div>
     );
 }

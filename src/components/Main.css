@@ -7,9 +7,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 40px 0;
-    height: 700px;
-    
+    padding: 60px 0;
+    position: relative;
 }
 .baner{
     width: 100%;
@@ -18,4 +17,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+.loadMore{
+    background-color:  rgb(0, 126, 205);
+    color: white;
+    font-family: "Oswald", sans-serif;
+    padding: 8px 60px;
+    border: none;
+}
+.button-loadMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.lable{
+    font-family: "Oswald", sans-serif;
+    margin-top: -20px;
 }

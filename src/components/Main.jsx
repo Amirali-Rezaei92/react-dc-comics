@@ -8,14 +8,18 @@ function Main() {
         <main className="main">
             <div className='baner'>
             </div>
+            <div className='lable container'>
+                <span className='badge text-bg-primary rounded-0 p-2 fs-3'>CURRENT SERIES</span>
+            </div>
             <div className="container cards-grid ">
                 {comics.map((comic, index) => (
                     <Card key={index} thumb={comic.thumb} title={comic.series} />
                 ))}
             </div>
-            <div>
-
+            <div className='button-loadMore'>
+                <button className='loadMore'>LOAD MORE</button>
             </div>
+
         </main>
     );
 }

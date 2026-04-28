@@ -1,19 +1,21 @@
 .card {
-    width: calc(100%/6 -20px);
-    
-    color: white;
-    text-align: left;
+  width: calc(100% / 6 - 20px);
+  aspect-ratio: 1 / 1;   
+  overflow: hidden;
+  color: white;
+  text-align: left;
+  height: 240px;
 }
 
 .card img {
-    width:180px;
-    height: 180px;
+    width: 100%;
+    height: 200px;
     object-fit:cover;
     display: block;
+    object-position: top;
 }
 .title{
     padding-top: 10px;
     font-size: 13px;
     height: 40px;
-    
 }

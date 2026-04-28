@@ -6,8 +6,8 @@ import BlueBar from './components/BlueBar.jsx';
 function App(){
   return <> 
     <Header/>
-    <BlueBar/>
     <Main/>
+    <BlueBar/>
     <Footer/>
   </>;
 }

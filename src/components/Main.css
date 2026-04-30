@@ -8,7 +8,8 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 60px 0;
-    position: relative;
+
+    height: auto;
 }
 .baner{
     width: 100%;

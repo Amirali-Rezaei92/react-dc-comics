@@ -1,9 +1,9 @@
-import comics from '../data/comics';
+
 import Card from './Card/Card.jsx';
 import './Main.css';
 
 
-function Main() {
+function Main({comics}) {
     return (
         <main className="main">
             <div className='baner'>
